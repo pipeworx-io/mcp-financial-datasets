@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-financial-datasets",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Financial Datasets AI MCP — wraps financialdatasets.ai",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-cd489e729e63da3abbe3bde224e5c4bf8d7f961088aa3b30c3721864439b2186",
-    "sourceCommit": "76aa8f5d9b5dc2f665563030647c68e661478864"
+    "sourceHash": "v1-506e166234ef4341b944073a9373b7d2eb8886f298a87bd90a836ecfbb28ecc3",
+    "sourceCommit": "91681e9a4a137fa0051d58e32f38c64b6334af5c"
   }
 }

@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-financial-datasets",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "Financial Datasets AI MCP — wraps financialdatasets.ai",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-financial-datasets": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "financial-datasets"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-financial-datasets.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/financial-datasets",
   "pipeworx": {
-    "sourceHash": "v1-cbbec226f70c1ce8d5bca9fa32c3ddd50642751056fc376a45a16e41a43a93ec",
-    "sourceCommit": "722087a9bda73f85942e8f6bbfd598544cb0d490"
+    "mode": "gateway",
+    "slug": "financial-datasets",
+    "gatewaySlug": "financial-datasets",
+    "sourceHash": "v1-c7db4535b6f3c96a5843c2930ee518ca50c4d90d4b53184c67becbb76ca12957",
+    "sourceCommit": "bb047243cf27f32453103de186b8e6a8b6a1ce79"
   }
 }

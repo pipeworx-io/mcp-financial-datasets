@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-financial-datasets",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Financial Datasets AI MCP — wraps financialdatasets.ai",
   "type": "module",
   "main": "lib/index.js",
@@ -28,6 +28,6 @@
     "slug": "financial-datasets",
     "gatewaySlug": "financial-datasets",
     "sourceHash": "v1-c7db4535b6f3c96a5843c2930ee518ca50c4d90d4b53184c67becbb76ca12957",
-    "sourceCommit": "bb047243cf27f32453103de186b8e6a8b6a1ce79"
+    "sourceCommit": "06a6b405041923c5ddf2ac2436e7c049e635f464"
   }
 }
